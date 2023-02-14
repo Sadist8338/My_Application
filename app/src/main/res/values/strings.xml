@@ -1,0 +1,7 @@
+<resources>
+    <string name="logo">Погода у вашому регіоні</string>
+    <string name="user_city">Введіть ваше місто</string>
+    <string name="button">Шукати</string>
+    <string name="no_Text">Введіть місто</string>
+    <string name="app_name">app_name</string>
+</resources>

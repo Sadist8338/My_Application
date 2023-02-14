@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary10"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:background="@color/material_dynamic_primary30"
+        android:clickable="false"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="#039BE5"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginHorizontal="70sp"
+        android:layout_marginTop="50sp"
+        android:autofillHints=""
+        android:background="@color/material_dynamic_primary30"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/user_city"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#039BE5"
+        tools:ignore="VisualLintTextFieldSize" />
+    <Button
+        android:id="@+id/Citybtn"
+        android:fontFamily="cursive"
+        android:layout_below="@id/City"
+        android:layout_marginTop="50sp"
+        android:layout_marginHorizontal="120sp"
+        android:backgroundTint="@color/material_dynamic_primary30"
+        android:layout_width="match_parent"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:background="@color/material_dynamic_primary30"
+        android:layout_below="@id/Citybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:clickable="false"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+</RelativeLayout>
